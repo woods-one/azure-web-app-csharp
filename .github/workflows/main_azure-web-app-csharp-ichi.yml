@@ -4,9 +4,9 @@
 name: Build and deploy ASP.Net Core app to Azure Web App - azure-web-app-csharp-ichi
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
+      - develop
   workflow_dispatch:
 
 jobs:
